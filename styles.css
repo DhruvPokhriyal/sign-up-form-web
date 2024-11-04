@@ -85,6 +85,7 @@ body {
     background-image: url("assets/images/halie-west-25xggax4bSA-unsplash.jpg");
     /* height: 100%; */
     /* width: 30%; */
+    background-size: cover;
 }
 
 h1 {
