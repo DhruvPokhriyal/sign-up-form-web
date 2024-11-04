@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "MyWebFont";
+    src: url("assets/fonts/WebFont.eot");
+    src: url("assets/fonts/WebFont.eot?#iefix") format("embedded-opentype"),
+        url("assets/fonts/WebFont.woff") format("woff"),
+        url("assets/fonts/WebFont.ttf") format("truetype"),
+        url("assets/fonts/WebFont.svg#webfont") format("svg");
+}
