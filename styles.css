@@ -88,6 +88,9 @@ body {
     background-image: url("assets/images/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
     flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .right-section {
@@ -100,10 +103,24 @@ h1 {
     font-size: 75px;
 }
 
-.img-logo {
-    display: flex;
-}
-
 .logo {
     height: 150px;
+}
+
+.left-body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.credit a {
+    color: ghostwhite;
+}
+.credit {
+    color: ghostwhite;
+}
+
+.left-footer {
+    display: flex;
+    justify-content: center;
 }
