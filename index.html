@@ -50,11 +50,13 @@
                     <h3 class="form-heading">Let's do this!</h3>
                     <div class="layer-1 layers">
                         <div class="fname">
-                            <label for="first-name">FIRST NAME</label
+                            <label for="first-name">FIRST NAME *</label
                             ><input
                                 type="text"
                                 name="first-name"
                                 id="first-name"
+                                placeholder="Thor"
+                                required
                             />
                         </div>
                         <div class="lname">
@@ -63,27 +65,52 @@
                                 type="text"
                                 name="last-name"
                                 id="last-name"
+                                placeholder="Odinson"
                             />
                         </div>
                     </div>
                     <div class="layer-2 layers">
                         <div class="email">
-                            <label for="mail">EMAIL</label
-                            ><input type="email" name="mail" id="mail" />
+                            <label for="mail">EMAIL *</label
+                            ><input
+                                type="email"
+                                name="mail"
+                                id="mail"
+                                placeholder="sample@example.com"
+                                required
+                            />
                         </div>
                         <div class="pno">
                             <label for="pnum">PHONE NUMBER</label
-                            ><input type="tel" name="pnum" id="pnum" />
+                            ><input
+                                type="tel"
+                                name="pnum"
+                                id="pnum"
+                                placeholder="+91 1234567890"
+                            />
                         </div>
                     </div>
                     <div class="layer-3 layers">
                         <div class="password">
-                            <label for="pwd">PASSWORD</label
-                            ><input type="password" name="pwd" id="pwd" />
+                            <label for="pwd">PASSWORD *</label
+                            ><input
+                                type="password"
+                                name="pwd"
+                                id="pwd"
+                                pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                                required
+                            />
+                            <span></span>
                         </div>
                         <div class="cpassword">
-                            <label for="cpwd">CONFIRM PASSWORD</label
-                            ><input type="password" name="cpwd" id="cpwd" />
+                            <label for="cpwd">CONFIRM PASSWORD *</label
+                            ><input
+                                type="password"
+                                name="cpwd"
+                                id="cpwd"
+                                pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                                required
+                            />
                         </div>
                     </div>
                 </form>

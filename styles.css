@@ -233,11 +233,24 @@ h1 {
     font-size: 15px;
 }
 
-#pwd:invalid {
-    border: 1px solid red;
+#pwd:invalid,
+#cpwd:invalid,
+input:invalid {
+    border: 1px solid red !important;
 }
 
 input:focus {
     outline: 1px solid blue;
     box-shadow: 1px 2px 5px grey;
+}
+
+#pwd + span {
+    position: relative;
+}
+
+#pwd + span::after {
+    position: absolute;
+    top: 10px;
+    content: "* Password should be at least 8 characters long, it should contain Uppercase letter, Lowercase letters, special symbols and numbers";
+    text-wrap: nowrap;
 }
