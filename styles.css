@@ -133,7 +133,7 @@ h1 {
 
 .first-section,
 .third-section {
-    background-color: #e6e6e6;
+    background-color: #f9fafb;
 }
 
 .first-section {
@@ -231,4 +231,13 @@ h1 {
 
 .layers div label {
     font-size: 15px;
+}
+
+#pwd:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    outline: 1px solid blue;
+    box-shadow: 1px 2px 5px grey;
 }
