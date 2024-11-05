@@ -161,6 +161,7 @@ h1 {
     flex: 1;
     padding-left: 5%;
     padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .third-section {
@@ -196,4 +197,20 @@ h1 {
     color: #596d48;
     text-decoration: none;
     font-weight: bold;
+}
+
+#sign-up-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.layers {
+    display: flex;
+    gap: 100px;
+}
+
+.layers div {
+    display: flex;
+    flex-direction: column;
 }
